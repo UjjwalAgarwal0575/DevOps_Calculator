@@ -17,9 +17,9 @@ public class AppTest {
     @Test
     public void testAddPositive() {
         App cal = new App();
-        double a = 4;
-        double b = 5;
-        double expectedResult = 9;
+        double a = 2;
+        double b = 3;
+        double expectedResult = 5;
         double result = cal.add(a, b);
         Assert.assertEquals(expectedResult, result, 0.001); // Adding a delta for double comparison
     }
