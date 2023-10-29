@@ -11,7 +11,7 @@ public class App {
     private static final Logger logger = LogManager.getLogger(App.class);
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // System.out.println("Hello World!");
 
         logger.info("Start of Execution");
         double num1, num2;
@@ -64,5 +64,17 @@ public class App {
 
         logger.info("End of Execution");
         sc.close();
+    }
+    public double add(double a,double b) 
+    {
+        double sum = 0;
+        logger.info("Adding numbers");
+        // for (double number : numbers) 
+        // {
+        //     sum += number;
+        // }
+        sum = a + b;
+        logger.info("Result : " + sum);
+        return sum;
     }
 }
