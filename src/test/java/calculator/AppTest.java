@@ -33,4 +33,27 @@ public class AppTest {
         double result = cal.add(a, b);
         Assert.assertNotEquals(expectedResult, result, 0.001); // Adding a delta for double comparison
     }
+
+    @Test
+    public void testNaturalLog() {
+        double A = 1;
+        double naturalLog = 0;
+        double result = App.naturalLog(A);
+        Assert.assertEquals(naturalLog, result, 0);
+    }
+    @Test
+    public void testPower() {
+        double A = 5;
+        double B = 2;
+        double power = 25;
+        double result = App.power(A,B);
+        Assert.assertEquals(power, result, 0);
+    }
+    @Test
+    public void testSquareRoot() {
+        double A = 9;
+        double squareRoot = 3;
+        double result = App.squareRoot(A);
+        Assert.assertEquals(squareRoot, result, 0);
+    }
 }
