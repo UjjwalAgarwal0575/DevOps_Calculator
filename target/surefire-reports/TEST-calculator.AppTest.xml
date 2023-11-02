@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="calculator.AppTest" time="0.522" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="calculator.AppTest" time="0.518" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/ujjwal/Desktop/SPE/Mini_Project/cal/target/surefire/surefirebooter2775696382376167393.jar /home/ujjwal/Desktop/SPE/Mini_Project/cal/target/surefire 2023-10-28T13-08-57_378-jvmRun1 surefire6907070007364825832tmp surefire_0412083190371804436tmp"/>
+    <property name="sun.java.command" value="/home/ujjwal/Desktop/SPE/Mini_Project/cal/target/surefire/surefirebooter8411311805457563512.jar /home/ujjwal/Desktop/SPE/Mini_Project/cal/target/surefire 2023-11-02T22-58-51_937-jvmRun1 surefire4284997242842417456tmp surefire_09014384893293573941tmp"/>
     <property name="surefire.test.class.path" value="/home/ujjwal/Desktop/SPE/Mini_Project/cal/target/test-classes:/home/ujjwal/Desktop/SPE/Mini_Project/cal/target/classes:/home/ujjwal/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ujjwal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ujjwal/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/home/ujjwal/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/ujjwal"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/ujjwal/Desktop/SPE/Mini_Project/cal/target/surefire/surefirebooter2775696382376167393.jar"/>
+    <property name="surefire.real.class.path" value="/home/ujjwal/Desktop/SPE/Mini_Project/cal/target/surefire/surefirebooter8411311805457563512.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_362-8u362-ga-0ubuntu1~20.04.1-b09"/>
@@ -59,6 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAddPositive" classname="calculator.AppTest" time="0.006"/>
+  <testcase name="testPower" classname="calculator.AppTest" time="0.005"/>
+  <testcase name="testAddPositive" classname="calculator.AppTest" time="0"/>
   <testcase name="testAddNegative" classname="calculator.AppTest" time="0"/>
+  <testcase name="testNaturalLog" classname="calculator.AppTest" time="0"/>
+  <testcase name="testSquareRoot" classname="calculator.AppTest" time="0"/>
 </testsuite>

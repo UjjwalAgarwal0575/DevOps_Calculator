@@ -2,3 +2,13 @@
 13:08:58.424 [main] INFO  calculator.App - Result : 3.0
 13:08:58.424 [main] INFO  calculator.App - Adding numbers
 13:08:58.424 [main] INFO  calculator.App - Result : 3.0
+22:58:53.096 [main] INFO  calculator.App - Power of 5.0 and 2.0
+22:58:53.098 [main] INFO  calculator.App - Result - 25.0
+22:58:53.098 [main] INFO  calculator.App - Adding numbers
+22:58:53.099 [main] INFO  calculator.App - Result : 5.0
+22:58:53.099 [main] INFO  calculator.App - Adding numbers
+22:58:53.099 [main] INFO  calculator.App - Result : 3.0
+22:58:53.099 [main] INFO  calculator.App - Natural Log of 1.0
+22:58:53.099 [main] INFO  calculator.App - Result - 0.0
+22:58:53.100 [main] INFO  calculator.App - Square Root of 9.0
+22:58:53.100 [main] INFO  calculator.App - Result - 3.0
