@@ -35,7 +35,7 @@ public class App {
         return Math.log(num);
     }
     public static void main(String[] args) {
-        // System.out.println("World!");
+        // System.out.println("Hello World!");
 
         logger.info("Start of Execution");
         double A,B;
